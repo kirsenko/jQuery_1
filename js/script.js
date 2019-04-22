@@ -11,7 +11,7 @@
         $('em').addClass('selected');
 
         // —найдите все элементы mark, которые находятся в div с классом row и задайте им класс.selected
-        $('mark', '.row').addClass('selected');
+        $('mark', 'div.row').addClass('selected');
 
         // — найдите все гиперссылки и удалите у них подчеркивания
         $('a').css({
